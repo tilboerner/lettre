@@ -1,0 +1,71 @@
+<HTML>
+<HEAD>
+    <TITLE>Lettre Model Index Page</TITLE>
+    
+    <link rel="stylesheet" type="text/css" href="lettre.css">
+
+    <!--<link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+    -->
+    <script src="jquery-1.8.3.min.js"></script>
+    <script src="lettre.js"></script>
+
+
+</HEAD>
+
+<BODY>
+
+
+	<div id="container">
+
+		<div id="center" class="column">
+        <DIV id="search" class="box">(search)</FORM></DIV>
+        <DIV id="tools" class="box"><a id="logout" href="javascript:void(0)">logout</a><img src="tools.png"/></DIV>
+
+        <DIV id="main" class="box">
+        <DIV id="messages">
+            <DIV id="messages-header" class="header">Conversation with <span class="contact"></span><ul class="taglist inlinelist"></ul></DIV>
+            <DIV id="messages-content" class="content"></DIV>
+        </DIV>
+        </DIV>
+
+		</div>
+
+		<div id="left" class="column">
+        <DIV id="header"><a href=""><img src="header2.jpg" width="100%"/></a></DIV>
+
+    
+        <DIV id="sidebar">
+            <DIV class="header">
+                <DIV id="buttons"><a id="contacts-button" class="button" href="#">contacts</a> <a id="tags-button" class="button" href="#">tags</a></DIV>
+            </DIV>
+            <DIV class="content box">
+                <DIV id="contacts"><ul class="contactlist plainlist"></ul></DIV>
+                <DIV id="tags"><ul class="taglist plainlist"></ul></DIV>
+            </DIV>
+        </DIV>
+		</div>
+
+        <!--
+		<div id="right" class="column">
+			<h2>This is the right sidebar.</h2>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla.</p>
+		</div>
+-->
+	</div>
+
+	<div id="footer"></div>
+    
+  <div id="login" class="box">
+    <img src="header2.jpg" width="250"/>
+       <form id="loginform" action="" method="" name="loginform"><!-- onClick="auth.login(); return false;"> -->
+            Username:<br><input type="text" name="username" /><br>
+            Password:<br><input type="password" name="password" /><br>
+            <br>
+            <input class="submit" type="submit" name="login" value="login" />
+        </form>
+  </div>  
+  <div id="screen"></div>
+</BODY>
+
+
+</HTML>

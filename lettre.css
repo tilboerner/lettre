@@ -1,0 +1,170 @@
+		body {
+			min-width: 300px;         /* 2 x LC width + RC width */
+        height: 100%;
+		}
+
+		#container {
+			padding-left: 300px;      /* LC width */
+			padding-right: 0px;     /* RC width */
+		}
+		
+		#container .column {
+			position: relative;
+			float: left;
+		}
+		
+		#center {
+			width: 100%;
+		}
+		
+		#left {
+			width: 300px;             /* LC width */
+			right: 300px;             /* LC width */
+			margin-left: -100%;
+       margin-right: 20px;
+		}
+		
+		#right {
+			width: 0px;             /* RC width */
+			margin-right: -100%;
+		}
+		
+		#footer {
+			clear: both;
+		}
+
+    #sidebar {
+        min-height: 20%;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+ 
+    #main {
+        height: 90%;
+        margin-left: 10px;
+    }
+    
+   
+    #sidebar .content{
+    }
+    
+    
+    #sidebar .header{
+        margin-bottom: 5px;
+    }
+    
+    #search {
+        position: relative;
+        float: left;
+        text-align: left;
+    }
+
+    #tools {
+        position: relative;
+        text-align: right;
+    }
+
+    
+    #messages-header {
+        color: white;
+        background-color: black;
+        padding: 5px;
+    }
+    
+    #messages-header li.tag {
+        color: black;
+        background-color: white;
+        text-decoration: none;
+    }
+    
+    #login {
+        position: absolute;
+        margin: auto;
+        top: 35%;
+        left: 45%;
+        padding: 10px;
+        background-color: white;
+        z-index: 9999;
+    }
+    
+    #screen {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        opacity: 0.8;
+        z-index: 9998;
+    }
+        
+    .box {
+        border:1px solid black;
+    }
+    
+    .content {
+        padding: 5px;
+    }
+    
+    .round {
+        border-radius: 2px;
+        -moz-border-radius: 2px;
+    }
+    
+    .header {
+         font-family: 'Julius Sans One', sans-serif;
+    }
+    
+    a.button {
+        color: white;
+        background-color: black;
+        padding: 5px;
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
+    a.highlight {
+        background-color: #A0A0A0;
+    }
+    
+    ul.inlinelist {
+        display: inline;
+        list-style-type: none;
+        padding-left: 0px;
+        margin-left: 0;
+        text-indent: 0px;
+    }
+   ul.inlinelist li {
+        display: inline-block;
+        margin: 5px;
+        padding: 2px;
+    }
+    .plainlist {
+        list-style-type: none;
+        padding-left: 0px;
+        margin-left: 0;
+        text-indent: 0px;
+    }
+        
+    .message dl {
+        list-style-type: none;
+        padding-left: 0px;
+        margin-left: 0;
+        text-indent: 0px;
+        display: inline;
+    }
+    
+    .message dt {
+        font-weight: bold;
+        //display: inline;
+    }
+    
+    .message dd {
+        font-weight: normal;
+        //display: inline;
+        text-indent: 0px;
+    }
+    
+    .message .subject {
+        font-weight: bold;
+    }
+    
